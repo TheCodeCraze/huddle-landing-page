@@ -1,0 +1,97 @@
+.container {
+  width: 1275px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 208px;
+  align-self: flex-start;
+}
+
+.content {
+  width: 100%;
+  height: 493px;
+  margin: 92px 0 27px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.image {
+  width: 696px;
+  height: 100%;
+}
+
+.text {
+  width: 520px;
+  height: 305px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title {
+  height: 120px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 60px;
+}
+
+.description {
+  height: 81px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 27px;
+}
+
+.button {
+  width: 200px;
+  height: 56px;
+  background: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--violet);
+  line-height: 27px;
+  outline: none;
+  border: none;
+  border-radius: 28px;
+  box-shadow: 2px 4px 9px 3px hsla(0, 0%, 0%, 0.2586);
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--soft-magenta);
+  color: #fff;
+}
+
+.footer {
+  width: 152px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+
+.icon > circle {
+  stroke: #fff;
+}
+
+.icon > g > rect {
+  fill: #fff;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.icon:hover > circle {
+  stroke: #ff52c1;
+}
+
+.icon:hover > g > rect {
+  fill: #ff52c1;
+}

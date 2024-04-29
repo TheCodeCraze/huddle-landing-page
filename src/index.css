@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 1440px;
+}
+
+body {
+  height: 800px;
+  padding: 50px 0 40px;
+  background: url("/bg-desktop.svg") top left no-repeat var(--violet);
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+button {
+  font-family: "Poppins", sans-serif;
+}
